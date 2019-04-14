@@ -32,6 +32,10 @@ sections:
   templates:
   - project
 - type: document
+  path: clubs
+  label: Clubs
+  match: "**/*"
+- type: document
   path: _data/information.yml
   label: Contact Information
 upload_dir: uploads
